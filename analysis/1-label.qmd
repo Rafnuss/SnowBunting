@@ -16,7 +16,7 @@ This script will guide you through the tag labelling of pressure and/or accelera
 
 ```{r setup, message=FALSE}
 # Choose the id
-id <- "18LX"
+id <- "X0A7"
 
 # Set the directory to the project root
 # see Working directory bullet point in https://bookdown.org/yihui/rmarkdown/notebook.html#executing-code
@@ -77,7 +77,8 @@ ggplotly(
         as.POSIXct(config::get("tag_create", id)$crop_start),
         as.POSIXct(config::get("tag_create", id)$crop_end)
       )),
-      color = "red", lwd = 1
+      color = "red",
+      lwd = 1
     )
 )
 ```
@@ -127,7 +128,8 @@ plot(tag, type = "pressure")
 Compute pressure map on a coarse grid to perform checks 3-5.
 
 ```{r, cache = TRUE}
-tag <- tag_set_map(tag,
+tag <- tag_set_map(
+  tag,
   extent = config::get("tag_set_map", id)$extent,
   scale = 1,
   known = config::get("tag_set_map", id)$known,

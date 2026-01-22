@@ -11,7 +11,7 @@ library(GeoPressureR)
 library(ggplot2)
 library(plotly)
 
-id <- "18LX"
+id <- "XA49"
 ```
 
 ## Sensor data and crop date
@@ -99,7 +99,7 @@ tag <- twilight_create(
   tag,
   twl_offset = config::get("twilight_create", id)$twl_offset
 )
-plot(tag, type = "twilight")
+plot(tag, type = "twilight")#, plot_plotly=T)
 ```
 
 Write label
