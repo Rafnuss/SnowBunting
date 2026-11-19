@@ -1,9 +1,9 @@
 ﻿ring_number,tag_id,observation_type,datetime,latitude,longitude,location_name,device_status,observer,catching_method,age_class,sex,condition,mass,wing_length,additional_metric,observation_comments
 8N77738,X0A7,equipment,2018-07-01T11:15,78.2,15.8,Svalbard,present,"Sissel Sjöberg, Frode Fossoy",N,3,M,,35,113,,
-8N77738,X0A7,retrieval,,78.2,15.8,Svalbard,present,,N,0,U,,,,,
+8N77738,X0A7,retrieval,2020-05-06,78.2,15.8,Svalbard,present,,N,0,U,,,,,"Date not recorded; set to the day of the last measurement of the tag, the earliest possible retrieval date."
 8N77878,X0AB,equipment,2018-06-28T10:30,78.2,15.8,Svalbard,present,"Sissel Sjöberg, Frode Fossoy",N,3,M,,40,115,,
-8N77878,X0AB,retrieval,,78.2,15.8,Svalbard,present,,N,0,U,,,,,
+8N77878,X0AB,retrieval,2019-07-02,78.2,15.8,Svalbard,present,,N,0,U,,,,,"Date not recorded; set to the day of the last measurement of the tag, the earliest possible retrieval date."
 8N77882,X0B2,equipment,2018-06-29T09:50,78.2,15.8,Svalbard,present,"Frode Fossoy, Börd Stokke",N,3,M,,35,108,,
-8N77882,X0B2,retrieval,,78.2,15.8,Svalbard,present,"Sissel Sjöberg, Frode Fossoy",N,3,M,,34,114,,
+8N77882,X0B2,retrieval,2019-06-23,78.2,15.8,Svalbard,present,"Sissel Sjöberg, Frode Fossoy",N,3,M,,34,114,,"Date not recorded; set to the day of the last measurement of the tag, the earliest possible retrieval date."
 8N77877,XA49,equipment,2017-06-24T18:00,78.2,15.8,Svalbard,present,"Frode Fossoy, Sissel Sjöberg",N,3,M,,36,109,,
-8N77877,XA49,retrieval,,78.2,15.8,Svalbard,present,,N,0,U,,,,,
+8N77877,XA49,retrieval,2018-04-08,78.2,15.8,Svalbard,present,,N,0,U,,,,,"Date not recorded; set to the day of the last measurement of the tag, the earliest possible retrieval date."
